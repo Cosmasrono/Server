@@ -18,7 +18,17 @@ const schema=new mongoose.Schema({
     phoneNumber:{
         type:String,
         required:true,
-    }
+    },
+    resetPasswordToken: {
+        type: String,
+      },
+      resetPasswordExpires: {
+        type: Date,
+      },
+      Date: {
+        type: Date,
+        default: Date.now,
+      },
 
 })
  
