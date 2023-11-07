@@ -4,7 +4,8 @@
   "main": "app.js",
   "license": "MIT",
   "engines": {
-    "node": "21.0.0"
+    "node": "21.0.0",
+    "npm": "10.2.1"
   
   },
   "scripts": {
